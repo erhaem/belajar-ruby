@@ -13,6 +13,8 @@ TEXT
 
 # string escape, interpolation, upcase, repeat 3 times
 end_of_message = "\nLet's having #{"fun".upcase} yeah \\m/" * 3
+# add string
+end_of_message << "\n\nBye."
 
 # string concatination
 puts title_of_message + message + end_of_message
