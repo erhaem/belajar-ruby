@@ -18,3 +18,7 @@ end_of_message << "\n\nBye."
 
 # string concatination
 puts title_of_message + message + end_of_message
+
+# trying include (contains)
+print "is this message about #{name}? "
+puts message.include?("erhaem")
